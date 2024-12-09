@@ -1,4 +1,4 @@
-Twitter Sentiment Analysis Script
+# Twitter Sentiment Analysis Script
 
 This Python script allows you to search for tweets containing a specific keyword from the past 7 days and perform sentiment analysis on them. The tool uses the Twitter API v2 to fetch tweets and TextBlob for analyzing sentiment polarity (Positive, Negative, Neutral). Results are saved to a CSV file for easy analysis.
 Features
@@ -14,7 +14,7 @@ Features
         Sentiment: Sentiment label (Positive, Negative, Neutral).
     Simple and lightweight, with minimal dependencies.
 
-Requirements
+# Requirements
 
     Python 3.7 or above.
     Twitter Developer account with Elevated Access to API v2.
@@ -23,11 +23,11 @@ Requirements
         textblob: For sentiment analysis.
         pandas: For organizing tweet data.
 
-Installation
+# Installation
 
     Clone the repository:
 
-git clone https://github.com/yourusername/twitter-sentiment-analysis.git
+git clone https://github.com/norsechurros/twitter-sentiment-analysis.git
 cd twitter-sentiment-analysis
 
 Install the required Python packages:
@@ -38,7 +38,7 @@ Install the required Python packages:
         Obtain your API Key, API Secret, Access Token, Access Token Secret, and Bearer Token from the Twitter Developer Portal.
         Replace the placeholder values in the script with your credentials.
 
-Usage
+# Usage
 
     Run the script:
 
@@ -60,12 +60,12 @@ Notes
     Ensure compliance with Twitter's API usage guidelines when running the script.
     Modify the script to implement pagination if you need to fetch more than 100 tweets.
 
-Future Improvements
+# Future Improvements
 
     Add real-time streaming for live tweet analysis.
     Support for additional languages.
     Advanced sentiment analysis with libraries like VADER or transformers.
 
-License
+#License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this script.
